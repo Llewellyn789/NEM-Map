@@ -614,10 +614,10 @@ function ZoomableCanvas({ nodes, edges, onSelect }: { nodes: Node[]; edges: Edge
           {nodes.map((n) => (
             <foreignObject
               key={n.id}
-              x={(n.x / 100) * 1000 - 100}
-              y={(n.y / 100) * 700 - 24}
-              width={220}
-              height={48}
+              x={(n.x / 100) * 1000 - 110}
+              y={(n.y / 100) * 700 - 36}
+              width={240}
+              height={72}
             >
               <button
                 onMouseEnter={() => setHover(n)}
@@ -677,4 +677,3 @@ function ZoomableCanvas({ nodes, edges, onSelect }: { nodes: Node[]; edges: Edge
     </div>
   );
 }
-
