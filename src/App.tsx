@@ -299,7 +299,7 @@ const NODES: Node[] = [
     id: "mo",
     title: "Market Operator",
     category: "Market Participants",
-    x: 58,
+    x: 61,
     y: 42,
     actors: [
       {
